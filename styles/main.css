@@ -1,1 +1,43 @@
 
+body{
+  font-family: "Lucida Console", Monaco, monospace;
+
+}
+
+#header{
+  text-align: center;
+  border-bottom: solid 3px black;
+}
+
+#quote-body{
+  width: 50%;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px black;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+#quote-text>p{
+  margin: 0;
+}
+
+#quote-title{
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+#buttons{
+  margin-top: 50px;
+  height: 25px;
+}
+
+#button-twitter{
+  float:left;
+}
+
+#button-new-quote{
+  float:right;
+}
