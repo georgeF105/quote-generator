@@ -21,6 +21,7 @@ body{
 
 #quote-text>p{
   margin: 0;
+  font-size: 20px;
 }
 
 #quote-title{
@@ -31,13 +32,20 @@ body{
 
 #buttons{
   margin-top: 50px;
-  height: 25px;
+  height: 40px;
 }
 
 #button-twitter{
   float:left;
+  height:inherit;
+}
+
+#button-twitter-img{
+  height: 100%;
 }
 
 #button-new-quote{
   float:right;
+  height: 100%;
+  vertical-align: middle;
 }
